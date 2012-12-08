@@ -21,6 +21,12 @@ img.info-icon {
   margin: 15px 10px;
 }
 
+#poi-name-section,
+#poi-location-section,
+#poi-telephone-section {
+  padding-left: 60px;
+}
+
 #map {
   width: 100%;
   height: 200px;
