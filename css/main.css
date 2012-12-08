@@ -1,0 +1,9 @@
+img#logo {
+  display: block;
+  width: 284px;
+  margin: 0 auto;
+}
+
+h2#title {
+  text-align: center;
+}
