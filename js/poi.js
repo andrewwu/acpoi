@@ -18,7 +18,7 @@ $(document).on('pageinit', '#poi-page', function() {
 
   $('a#back-btn').click(function(e) {
     e.preventDefault();
-    $.mobile.changePage('city.html', {transition: "slide", direction: "reverse"});
+    history.back();
   });
 });
 
