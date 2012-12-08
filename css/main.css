@@ -4,6 +4,12 @@ img#logo {
   margin: 0 auto;
 }
 
+img#ac-map {
+  display: block;
+  width: 320px;
+  margin: 0 auto;
+}
+
 h2#title {
   text-align: center;
 }

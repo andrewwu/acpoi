@@ -1,0 +1,42 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <title>Alameda County</title> 
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?libraries=places&sensor=false"></script>
+    <script src="js/main.js"></script>
+    <script src="js/city.js"></script>
+    <script src="js/poi.js"></script>
+  </head>
+  <body> 
+    <div id="info-page" data-role="page">
+      <div data-role="header">
+        <a href="index.html" data-icon="back">Back</a>
+        <h1>Alameda County</h1>
+      </div>
+      <div data-role="content"> 
+        <img id="ac-map" src="images/alameda-county-map.png" alt="Alameda County Map" />
+
+        <div data-role="collapsible" data-collapsed="false" data-theme="e" data-content-theme="d">
+          <h3>About</h3>
+          <p>Alameda County, California, was established in 1853. The County was created from the territory of two counties created in 1850: Contra Costa and Santa Clara. It was given the local name for the region, Alameda, which translated loosely as "a grove of poplars." The County enjoys a varied geography ranging from urban marinas to rolling open spaces to hillside lakes and streams. Alameda is the seventh most populous county in California, and has 14 incorporated cities and several unincorporated communities. The total population is estimated to be 1,510,271 as of April 2010, a 4.6% increase from April 2000. During the same time period, California's population rose 10%. Oakland is the seat of County government and the largest city.</p>
+
+          <p>Alameda County is characterized by rich diversity and culture. Population growth has occurred with the natural net increase of births over deaths, but also from substantial immigration, and Alameda County is now one of the most ethnically diverse regions in the Bay Area and the nation. The 2010 Census shows that there is no majority racial or ethnic group in Alameda County. Compared to the 2000 Census, the Black / African American population decreased countywide by 11%, the Asian population increased by 31%, and the Hispanic population increased by 23%. According to the California Department of Education, 53 languages were spoken by English language learners in the K-12 public school systems in Alameda County in 2008-09.</p> 
+        </div>
+
+        <div data-role="collapsible" data-collapsed="false" data-theme="e" data-content-theme="d">
+          <h3>Additional Resources</h3>
+          <ul id="additional-resources" data-role="listview">
+            <li class="info-section"><a href="http://www.acgov.org" target="_blank">Alameda County Official Site</a></li>
+            <li class="info-section"><a href="http://en.wikipedia.org/wiki/Alameda_County,_California" target="_blank">Wikipedia</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
