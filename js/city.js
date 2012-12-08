@@ -1,6 +1,8 @@
 $(document).on('pageinit', '#city-page', function() {
   var places = poiByCity[selectedCity];
 
+  $('ul#poi-list').empty();
+
   for (var i = 0; i < places.length; i++) {
     $('ul#poi-list').append("<li><a href='#'>" + places[i].name + "</a></li>");
   }
