@@ -1,0 +1,681 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "xzcz-7uep",
+      "name" : "Alameda County Points of Interest",
+      "attribution" : "Alameda County Community Development Agency",
+      "averageRating" : 0,
+      "category" : "Government",
+      "createdAt" : 1354582351,
+      "description" : "Community Development Agency Alameda County Points of Interest",
+      "displayType" : "table",
+      "downloadCount" : 10,
+      "licenseId" : "PUBLIC_DOMAIN",
+      "numberOfComments" : 0,
+      "oid" : 1892653,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1354583485,
+      "publicationGroup" : 535192,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1354582378,
+      "rowsUpdatedBy" : "hvsq-ajgr",
+      "signed" : false,
+      "tableId" : 535192,
+      "totalTimesRated" : 0,
+      "viewCount" : 49,
+      "viewLastModified" : 1354583496,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : 32606874,
+        "name" : "City",
+        "dataTypeName" : "text",
+        "fieldName" : "city",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 5766255,
+        "width" : 79,
+        "cachedContents" : {
+          "non_null" : 292,
+          "smallest" : "Alameda",
+          "null" : 0,
+          "largest" : "Union City",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Alameda"
+          }, {
+            "count" : 19,
+            "item" : "Albany"
+          }, {
+            "count" : 18,
+            "item" : "Berkeley"
+          }, {
+            "count" : 17,
+            "item" : "Castro Valley"
+          }, {
+            "count" : 16,
+            "item" : "Dublin"
+          }, {
+            "count" : 15,
+            "item" : "Emeryville"
+          }, {
+            "count" : 14,
+            "item" : "Fremont"
+          }, {
+            "count" : 13,
+            "item" : "Hayward"
+          }, {
+            "count" : 12,
+            "item" : "Livermore"
+          }, {
+            "count" : 11,
+            "item" : "Newark"
+          }, {
+            "count" : 10,
+            "item" : "Oakland"
+          }, {
+            "count" : 9,
+            "item" : "Piedmont"
+          }, {
+            "count" : 8,
+            "item" : "Pleasanton"
+          }, {
+            "count" : 7,
+            "item" : "San Leandro"
+          }, {
+            "count" : 6,
+            "item" : "Union City"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 32606875,
+        "name" : "Point of Interest",
+        "dataTypeName" : "text",
+        "fieldName" : "point_of_interest",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 5766256,
+        "width" : 281,
+        "cachedContents" : {
+          "non_null" : 292,
+          "smallest" : "1st Church of Christ Scientist",
+          "null" : 0,
+          "largest" : "Woodminster Amphitheater",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Old Chinatown/\"Little Tiajuana\""
+          }, {
+            "count" : 19,
+            "item" : "Riverside Hotel"
+          }, {
+            "count" : 18,
+            "item" : "St. Anne's Catholic Church"
+          }, {
+            "count" : 17,
+            "item" : "Union City Historical Museum"
+          }, {
+            "count" : 16,
+            "item" : "Union City Library"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 32606876,
+        "name" : "Location",
+        "dataTypeName" : "text",
+        "fieldName" : "location",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 5766257,
+        "width" : 246,
+        "cachedContents" : {
+          "non_null" : 262,
+          "smallest" : "10000 Skyline Blvd.",
+          "null" : 30,
+          "largest" : "Watkins between Smith & Horner",
+          "top" : [ {
+            "count" : 20,
+            "item" : "1302 Orchard Ave."
+          }, {
+            "count" : 19,
+            "item" : "561 Lafayette Ave."
+          }, {
+            "count" : 18,
+            "item" : "Union City Blvd. & Smith St."
+          }, {
+            "count" : 17,
+            "item" : "Smith & Dyer St."
+          }, {
+            "count" : 16,
+            "item" : "Decoto Rd. & flood channel"
+          }, {
+            "count" : 15,
+            "item" : "Abreu & Niles Rd."
+          }, {
+            "count" : 14,
+            "item" : "Mays & Mission Blvd."
+          }, {
+            "count" : 13,
+            "item" : "31600 Alvarado Blvd."
+          }, {
+            "count" : 12,
+            "item" : "1333 Decoto Rd."
+          }, {
+            "count" : 11,
+            "item" : "4100 Union City Blvd."
+          }, {
+            "count" : 10,
+            "item" : "Decoto Rd. & Mission Blvd."
+          }, {
+            "count" : 9,
+            "item" : "Watkins between Smith & Horner"
+          }, {
+            "count" : 8,
+            "item" : "Smith & Granger Ave."
+          }, {
+            "count" : 7,
+            "item" : "Smith & Fredi St."
+          }, {
+            "count" : 6,
+            "item" : "3841 Smith St."
+          }, {
+            "count" : 5,
+            "item" : "34007 Alvarado-Niles Rd."
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 32606877,
+        "name" : "Information Line",
+        "dataTypeName" : "text",
+        "fieldName" : "information_line",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 5766258,
+        "width" : 97,
+        "cachedContents" : {
+          "non_null" : 151,
+          "smallest" : "(510) 208-6080",
+          "null" : 141,
+          "largest" : "(925) 833-6645",
+          "top" : [ {
+            "count" : 20,
+            "item" : "(510) 881-6700"
+          }, {
+            "count" : 19,
+            "item" : "(510) 238-3187"
+          }, {
+            "count" : 18,
+            "item" : "(510) 615-5751"
+          }, {
+            "count" : 17,
+            "item" : "(510) 482-7827"
+          }, {
+            "count" : 16,
+            "item" : "(510) 238-3739"
+          }, {
+            "count" : 15,
+            "item" : "(510) 535-5608"
+          }, {
+            "count" : 14,
+            "item" : "(510) 638-7190"
+          }, {
+            "count" : 13,
+            "item" : "(510) 597-5027"
+          }, {
+            "count" : 12,
+            "item" : "(510) 832-9078"
+          }, {
+            "count" : 11,
+            "item" : "(510) 615-5764"
+          }, {
+            "count" : 10,
+            "item" : "(510) 839-8256"
+          }, {
+            "count" : 9,
+            "item" : "(510) 615-5758"
+          }, {
+            "count" : 8,
+            "item" : "(510) 638-7100"
+          }, {
+            "count" : 7,
+            "item" : "(510) 531-9597"
+          }, {
+            "count" : 6,
+            "item" : "(510) 420-3075"
+          }, {
+            "count" : 5,
+            "item" : "(925) 462-2766"
+          }, {
+            "count" : 4,
+            "item" : "(510) 577-3480"
+          }, {
+            "count" : 3,
+            "item" : "(510) 577-3462"
+          }, {
+            "count" : 2,
+            "item" : "(510) 569-2490"
+          }, {
+            "count" : 1,
+            "item" : "(510) 577-7447"
+          } ]
+        },
+        "format" : {
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Public Domain"
+      },
+      "metadata" : {
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "rowIdentifier" : "0",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "hvsq-ajgr",
+        "displayName" : "Matt Paul",
+        "emailUnsubscribed" : false,
+        "privacyControl" : "login",
+        "profileLastModified" : 1353437970,
+        "roleName" : "publisher",
+        "screenName" : "Matt Paul",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "edit_pages" ]
+      },
+      "query" : {
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "hvsq-ajgr",
+        "displayName" : "Matt Paul",
+        "emailUnsubscribed" : false,
+        "privacyControl" : "login",
+        "profileLastModified" : 1353437970,
+        "roleName" : "publisher",
+        "screenName" : "Matt Paul",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "edit_pages" ]
+      },
+      "tags" : [ "points of interest", "alameda county", "community development agency", "cda" ],
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ 1, "94D82D99-2841-4D2C-8553-3B0719E58534", 1, 1354582353, "700497", 1354582374, "700497", "{\n}", "Alameda", "Alameda City Hall", "Santa Clara & Oak", "(510) 747-4700" ]
+, [ 2, "B4142301-D3D5-4D0A-BCD9-3807E0BEDA91", 2, 1354582353, "700497", 1354582376, "700497", "{\n}", "Alameda", "Alameda High School", "2200 Central", null ]
+, [ 3, "C24EBDF5-BB67-4046-B6A9-C2A252D91D3E", 3, 1354582353, "700497", 1354582376, "700497", "{\n}", "Alameda", "Alameda Historical Museum", "2324 Alameda Ave.", "(510) 521-1233" ]
+, [ 4, "944F40CA-EFA7-4541-BAFC-74F9E23C8346", 4, 1354582353, "700497", 1354582374, "700497", "{\n}", "Alameda", "Alameda Point Gym", "1101 W. Redline Ave.", null ]
+, [ 5, "2FA228C1-2F9F-43A2-BE7E-635061EF90FF", 5, 1354582353, "700497", 1354582369, "700497", "{\n}", "Alameda", "Alameda Public Library", "Santa Clara & Oak", null ]
+, [ 6, "A1FCE04F-5DDD-4C95-B5B6-2D01C9F8C63A", 6, 1354582353, "700497", 1354582375, "700497", "{\n}", "Alameda", "Alameda Theater", "2315 Central Ave.", null ]
+, [ 7, "3CBF8D65-357C-4A0E-887C-EC912207A1A2", 7, 1354582353, "700497", 1354582370, "700497", "{\n}", "Alameda", "California Bungalows", "Burbank St.", null ]
+, [ 8, "570724C1-3002-496A-8F92-5F9E3C2A7F67", 8, 1354582353, "700497", 1354582371, "700497", "{\n}", "Alameda", "Croll's Building (1400 Bar & Grill)", "1400 Webster St.", null ]
+, [ 9, "A9F39F13-C2CE-4E55-AB5F-689B126DB64C", 9, 1354582353, "700497", 1354582375, "700497", "{\n}", "Alameda", "Lincoln Park", "Central & High", null ]
+, [ 10, "37F3CF43-B466-4E5A-9C58-63EBB7578FB1", 10, 1354582353, "700497", 1354582370, "700497", "{\n}", "Alameda", "Marina", null, null ]
+, [ 11, "3CCB6AC3-4271-4C35-AD29-2D32CA25F4EA", 11, 1354582353, "700497", 1354582370, "700497", "{\n}", "Alameda", "Meyers House & Garden Museum", "2021 Alameda Ave.", "(510) 521-1247" ]
+, [ 12, "C7D8F491-8289-4F3A-81CC-86DA90ECCF53", 12, 1354582353, "700497", 1354582376, "700497", "{\n}", "Alameda", "O' Club", "641 W. Redline Ave.", "(510) 748-4565" ]
+, [ 13, "744D53FC-88A0-44CC-8377-0C6A3ED467ED", 13, 1354582353, "700497", 1354582372, "700497", "{\n}", "Alameda", "Old U.S. Post Office", "2417 Central", null ]
+, [ 14, "7377D66F-0D21-4D9D-8501-878417932C6D", 14, 1354582353, "700497", 1354582372, "700497", "{\n}", "Alameda", "Osborne Model Airplane Field", "Doolittle Dr. at Harbor Bay Pkwy.", null ]
+, [ 15, "E5162A5C-5323-4E30-8C48-8B9DB5DDE01A", 15, 1354582353, "700497", 1354582377, "700497", "{\n}", "Alameda", "St. Joseph's Basilica", "1109 Chestnut St.", null ]
+, [ 16, "396937F2-E662-4C9A-99DA-D2674608C2DB", 16, 1354582353, "700497", 1354582370, "700497", "{\n}", "Alameda", "USS Hornet Museum", "Pier 3, W. Hornet Ave.", "(510) 521-8448" ]
+, [ 17, "395E3F9B-BFB1-4A4D-B7EE-99395007F766", 17, 1354582353, "700497", 1354582370, "700497", "{\n}", "Alameda", "Veteran's Memorial Building", "2203 Central Ave.", "(510) 864-4017" ]
+, [ 18, "80887ECE-534F-4873-80D7-F7E27B107629", 18, 1354582353, "700497", 1354582373, "700497", "{\n}", "Albany", "Albany Community Center", "1123  8th St.", null ]
+, [ 19, "C8BAF93B-47BF-4303-91BC-D0CC1CC51931", 19, 1354582353, "700497", 1354582376, "700497", "{\n}", "Albany", "Albany Mud Flats Ecological Preserve", null, null ]
+, [ 20, "3D1701AC-A47E-42D6-B279-51EEB66749B6", 20, 1354582353, "700497", 1354582370, "700497", "{\n}", "Albany", "Fleming Point", null, null ]
+, [ 21, "F1C3EE53-99BC-421F-BEA5-BD51A089F489", 21, 1354582353, "700497", 1354582377, "700497", "{\n}", "Albany", "Gill Cottage", "San Pablo Ave.", null ]
+, [ 22, "05489591-B13A-452F-A6A4-D76AACC9948B", 22, 1354582353, "700497", 1354582364, "700497", "{\n}", "Albany", "Golden Gate Fields", "1100 Eastshore Hwy.", "(510) 559-7300" ]
+, [ 23, "909FEAA5-1B1E-4E85-BFA4-AED27757D003", 23, 1354582353, "700497", 1354582374, "700497", "{\n}", "Berkeley", "1st Church of Christ Scientist", "2619 Dwight Way.", null ]
+, [ 24, "BCDEAF72-1842-4F5E-8204-AB50862501B2", 24, 1354582353, "700497", 1354582376, "700497", "{\n}", "Berkeley", "Bade Institute of Biblical Archeology", "1798 Scenic Ave.", "(510) 848-0528" ]
+, [ 25, "E049A59B-B8B1-4C44-B279-8B3973E3A243", 25, 1354582353, "700497", 1354582377, "700497", "{\n}", "Berkeley", "Berkeley Art Center", "1275 Walnut St.", "(510) 644-6893" ]
+, [ 26, "EA0F10B2-89AC-41F7-AA90-2C745F4917F3", 26, 1354582353, "700497", 1354582377, "700497", "{\n}", "Berkeley", "Berkeley City Club", "2315 Durant", "(510) 848-7800" ]
+, [ 27, "2F6DB098-556E-48C7-B1FD-D207DD1B9700", 27, 1354582353, "700497", 1354582369, "700497", "{\n}", "Berkeley", "Berkeley Historical Society & Museum", "1931 Center St.", "(510) 848-0181" ]
+, [ 28, "F8AB6ACC-8688-4E47-845A-B6B9E2C4E220", 28, 1354582353, "700497", 1354582378, "700497", "{\n}", "Berkeley", "Berkeley Marina", null, null ]
+, [ 29, "9C92A4C3-E98F-4175-83D2-AC6E92108CF9", 29, 1354582353, "700497", 1354582374, "700497", "{\n}", "Berkeley", "Berkeley Pier", null, null ]
+, [ 30, "74E03F90-32FA-4AF0-8EB1-1B7E129DCB4E", 30, 1354582353, "700497", 1354582372, "700497", "{\n}", "Berkeley", "Berkeley Rose Garden", "201 University Ave.", null ]
+, [ 31, "100C49E4-1FD4-4AF8-9D37-C0EE6F3B04A2", 31, 1354582353, "700497", 1354582367, "700497", "{\n}", "Berkeley", "Codornices Park Rose Garden", "2180 Milvia St.", null ]
+, [ 32, "FCD1F0F0-D587-49C7-957C-8885D3240B6A", 32, 1354582353, "700497", 1354582378, "700497", "{\n}", "Berkeley", "Finnish Hall", "1819  10th St.", null ]
+, [ 33, "36E96060-90FD-4C07-89AE-11E1F5D229AF", 33, 1354582353, "700497", 1354582370, "700497", "{\n}", "Berkeley", "Habitot Children's Museum", "2065 Kettredge St.", "(510) 647-1111" ]
+, [ 34, "74C73156-9103-4895-8AAE-EC3DCC5CC061", 34, 1354582353, "700497", 1354582372, "700497", "{\n}", "Berkeley", "Hall of Health", "2230 Shattuck Ave.", "(510) 549-1564" ]
+, [ 35, "A56465D1-FE68-4024-8650-DD06F62DC2EB", 35, 1354582353, "700497", 1354582375, "700497", "{\n}", "Berkeley", "Integral Urban House", "1516  5th St.", "(510) 525-1150" ]
+, [ 36, "99933212-22BF-4E93-8F01-2907E7CD109F", 36, 1354582353, "700497", 1354582374, "700497", "{\n}", "Berkeley", "Jewish Community Center", "1414 Walnut", "(510) 848-0237" ]
+, [ 37, "C1864329-1218-477B-A58D-0D4A6AC18475", 37, 1354582353, "700497", 1354582376, "700497", "{\n}", "Berkeley", "Judah L. Magnes Memorial Museum", "2911 Russell St.", "(510) 849-3650" ]
+, [ 38, "7F5DF32D-BA14-4488-AA47-E2C9CFBBE0B7", 38, 1354582353, "700497", 1354582373, "700497", "{\n}", "Berkeley", "Kala Institute Art Gallery", "1060 Heinz St.", "(510) 549-2977" ]
+, [ 39, "7272CCDD-28C3-4216-A4F2-F8872FDB91A1", 39, 1354582353, "700497", 1354582372, "700497", "{\n}", "Berkeley", "Mortar Rock/Indian Rock Parks", "Indian Rock Ave.", null ]
+, [ 40, "4AF87C36-3B5F-4175-B0FC-0EEBF5A3A30C", 40, 1354582353, "700497", 1354582371, "700497", "{\n}", "Berkeley", "Old City Hall", "2134 Grove St.", null ]
+, [ 41, "12BC08F4-53CE-4112-AFD8-ADF00EBFA195", 41, 1354582353, "700497", 1354582367, "700497", "{\n}", "Berkeley", "People's Park", "E. of Telegraph, between Haste & Dwight", null ]
+, [ 42, "1A0023F2-AF9E-4415-922E-BEEB6F85C864", 42, 1354582353, "700497", 1354582368, "700497", "{\n}", "Berkeley", "Shorebird Nature Center", "160 University Ave.", "(510) 644-8623" ]
+, [ 43, "E006DBDD-4A2E-47B6-A387-FE9D14B5D0ED", 43, 1354582353, "700497", 1354582377, "700497", "{\n}", "Berkeley", "St. John's Church", "2640 College Ave.", null ]
+, [ 44, "8D71EC0C-6FC0-47B4-8034-BFCDF86B1EEF", 44, 1354582353, "700497", 1354582374, "700497", "{\n}", "Berkeley", "Telegraph Ave.", "S. of Bancroft", null ]
+, [ 45, "BF483765-0248-488D-8ED6-610A7C06DEF0", 45, 1354582353, "700497", 1354582376, "700497", "{\n}", "Berkeley", "Tilden Nature Center", "Canon Dr.", "(510) 525-2233" ]
+, [ 46, "89F2CB75-89D1-4550-918F-559542579631", 46, 1354582353, "700497", 1354582374, "700497", "{\n}", "Berkeley", "UC Berkeley Art Museum & Pacific Film Archive", "2626 Bancroft Way", "(510) 642-0808" ]
+, [ 47, "9C942E94-0B3A-449C-8D19-6153858AB3AC", 47, 1354582353, "700497", 1354582375, "700497", "{\n}", "Berkeley", "UC Berkeley Botanical Garden", "200 Centennial Dr.", "(510) 643-2755" ]
+, [ 48, "76CDCE77-8E5A-477E-8DE8-271EFED82BF7", 48, 1354582353, "700497", 1354582372, "700497", "{\n}", "Berkeley", "UC Berkeley Campus", null, null ]
+, [ 49, "96428587-29B4-42E6-8465-8F7F3FD9349F", 49, 1354582353, "700497", 1354582374, "700497", "{\n}", "Berkeley", "UC Berkeley Essig Museum of Entomology", "311 Wellman Hall", null ]
+, [ 50, "4D83009E-2AAF-49A5-AD26-F1B27EC615D9", 50, 1354582353, "700497", 1354582371, "700497", "{\n}", "Berkeley", "UC Berkeley Hearst Museum of Anthropology", "Kroeber Hall", "(510) 643-7648" ]
+, [ 51, "8C621677-4379-4DC7-ACA0-4DE7331BFA7A", 51, 1354582353, "700497", 1354582374, "700497", "{\n}", "Berkeley", "UC Berkeley Herbarium", "1001 Valley Life Science Building", "(510) 642-2465" ]
+, [ 52, "E514A829-DC99-444A-80A1-7FCDE0855FC6", 52, 1354582353, "700497", 1354582377, "700497", "{\n}", "Berkeley", "UC Berkeley Lawrence Hall of Science", "Centennial Dr.", "(510) 642-5132" ]
+, [ 53, "70E07C5B-2670-4EC2-A03A-7C1A171C2775", 53, 1354582353, "700497", 1354582372, "700497", "{\n}", "Berkeley", "UC Berkeley Museum of Paleontology", "Valley Life Science Building", "(510) 642-1821" ]
+, [ 54, "D5A5D1BE-8EC9-4B6A-AF59-7D1FA656DC7E", 54, 1354582353, "700497", 1354582377, "700497", "{\n}", "Berkeley", "UC Berkeley Museum of Vertebrate Zoology", "2593 Life Science Building", "(510) 642-3567" ]
+, [ 55, "6759979F-6B5A-40B5-96CC-6D1E5CBB1DFF", 55, 1354582353, "700497", 1354582372, "700497", "{\n}", "Castro Valley", "Aitken Community Center", "17800 Redwood Rd", "(510) 881-6700" ]
+, [ 56, "8E2A981F-22AB-495E-893B-C04AF1DD3939", 56, 1354582353, "700497", 1354582374, "700497", "{\n}", "Castro Valley", "Castro Valley Adobe Art Center", "20395 San Miguel", null ]
+, [ 57, "007733D3-0C3A-416F-B055-15F371765F6D", 57, 1354582353, "700497", 1354582364, "700497", "{\n}", "Castro Valley", "Castro Valley Community Center", "18988 Lake Chabot Rd.", "(510) 881-6700" ]
+, [ 58, "DCCCB5F4-B7C9-40D2-ADC5-4DEA2CB8D2A9", 58, 1354582353, "700497", 1354582377, "700497", "{\n}", "Castro Valley", "Eden Hospital", "20103 Lake Chabot Rd.", null ]
+, [ 59, "081F0C2B-CFA6-4DB6-AEF6-99B1B1FDE586", 59, 1354582353, "700497", 1354582366, "700497", "{\n}", "Castro Valley", "Redwood Schoolhouse", "Redwood & James St.", null ]
+, [ 60, "19DCE532-1AFD-4659-92AE-EF369D1D303B", 60, 1354582353, "700497", 1354582368, "700497", "{\n}", "Castro Valley", "Stanton House", "1620 Strobridge", null ]
+, [ 61, "FC25B34B-77D4-442D-9C53-5B0F5F03F527", 61, 1354582353, "700497", 1354582378, "700497", "{\n}", "Dublin", "Camp Shoemaker", "Tassajara Rd. & Gleason Rd.", null ]
+, [ 62, "12FD0890-7936-462F-AF58-A307FFE241CB", 62, 1354582353, "700497", 1354582367, "700497", "{\n}", "Dublin", "Dublin Crossroads", "Donlon Way & Dublin Blvd.", null ]
+, [ 63, "25561F8C-9D7B-49F0-83F9-6B5EA0D02285", 63, 1354582353, "700497", 1354582369, "700497", "{\n}", "Dublin", "Dublin Heritage Center", "6600 Donlon Way", "(925) 803-4128" ]
+, [ 64, "0BE8C039-FEE1-4092-BA56-946831A5E298", 64, 1354582353, "700497", 1354582366, "700497", "{\n}", "Dublin", "Dublin Library", null, null ]
+, [ 65, "25354604-1C85-4FBC-B815-777741F080A9", 65, 1354582353, "700497", 1354582369, "700497", "{\n}", "Dublin", "Shannon Park Community Center", "11600 Shannon Ave.", "(925) 833-6645" ]
+, [ 66, "3FB31FA0-E6D9-4523-81ED-1F689624BF65", 66, 1354582353, "700497", 1354582370, "700497", "{\n}", "Emeryville", "Emery Cove Marina", null, null ]
+, [ 67, "DD2B6CA1-57A8-40E2-9F1A-CA0C6FFFFA45", 67, 1354582353, "700497", 1354582377, "700497", "{\n}", "Emeryville", "Emeryville City Marina", null, null ]
+, [ 68, "29A8A223-62AA-4F4A-A593-3AC8BDA65FAB", 68, 1354582353, "700497", 1354582369, "700497", "{\n}", "Emeryville", "Emeryville Crescent", "Emeryville Shoreline", null ]
+, [ 69, "83B35D8E-E8BA-40F3-B208-A7CEC72B1A20", 69, 1354582353, "700497", 1354582373, "700497", "{\n}", "Emeryville", "Old City Hall", "Park & Hollis", null ]
+, [ 70, "2AEB34C8-E97D-4325-A06C-6C4F08300977", 70, 1354582353, "700497", 1354582369, "700497", "{\n}", "Fremont", "Ardenwood Historic Farm", "34600 Ardenwood Blvd.", "(510) 796-0199" ]
+, [ 71, "0C9F9E81-7B74-4E80-ABBE-62F54B0B100B", 71, 1354582353, "700497", 1354582366, "700497", "{\n}", "Fremont", "Centerville Cemetery", "Bonde Way & Fremont Blvd.", null ]
+, [ 72, "B682F4D9-9410-46FC-B2A1-18D14685CA5E", 72, 1354582353, "700497", 1354582376, "700497", "{\n}", "Fremont", "Centerville Community Center", "3355 Country Rd.", "(510) 791-4324" ]
+, [ 73, "29303BEF-D3BE-4274-94F9-7BF42E1A07AB", 73, 1354582353, "700497", 1354582369, "700497", "{\n}", "Fremont", "City Beach", "4020 Technology Pl.", null ]
+, [ 74, "5FCD74A7-7059-4B59-A654-2068A86C663C", 74, 1354582353, "700497", 1354582372, "700497", "{\n}", "Fremont", "Fremont Community Center", "40000 Paseo Padre Pkwy.", "(510) 791-4340" ]
+, [ 75, "244F7181-A41F-47DB-B8EE-55AEF02A49B5", 75, 1354582353, "700497", 1354582369, "700497", "{\n}", "Fremont", "Irvington Community Center", "41885 Blacow Rd.", "(510) 791-4334" ]
+, [ 76, "43E0CC8B-9FE8-4BFB-8199-B40811749B7A", 76, 1354582353, "700497", 1354582370, "700497", "{\n}", "Fremont", "Los Cerritos Community Center", "3377 Alder Ave.", "(510) 791-4351" ]
+, [ 77, "0575EDFD-BBAD-4032-8E64-CB07FAB1C58D", 77, 1354582353, "700497", 1354582364, "700497", "{\n}", "Fremont", "Mission Peak Trail", "43600 Mission Blvd.", null ]
+, [ 78, "89B85146-F3D7-495A-B5F1-48A8EFAD9ADD", 78, 1354582353, "700497", 1354582374, "700497", "{\n}", "Fremont", "Mission San Jose & Museum", "43300 Mission Blvd.", "(510) 657-1797" ]
+, [ 79, "2092C3F5-14EE-41F2-B2FA-8FB6558C2085", 79, 1354582353, "700497", 1354582368, "700497", "{\n}", "Fremont", "Museum of Local History", "190 Anza St.", "(510) 623-7907" ]
+, [ 80, "D0955E4F-EF2C-412C-862F-CE7CA984A099", 80, 1354582353, "700497", 1354582377, "700497", "{\n}", "Fremont", "Niles Depot Museum", "36997 Mission Blvd.", "(510) 797-4449" ]
+, [ 81, "38CABF21-AF47-408D-8F62-881EC98452B6", 81, 1354582353, "700497", 1354582370, "700497", "{\n}", "Fremont", "Niles District", "Niles Blvd.", null ]
+, [ 82, "9081BE58-1A76-46B6-9DF9-61CE9C5DC299", 82, 1354582353, "700497", 1354582374, "700497", "{\n}", "Fremont", "Ohlone College Campus", null, null ]
+, [ 83, "8C4FF096-8826-4A0D-8FF7-F1BFFC3458D2", 83, 1354582353, "700497", 1354582374, "700497", "{\n}", "Fremont", "Ohlone College Gallery", "43600 Mission Blvd.", "(510) 659-6176" ]
+, [ 84, "9BEC3D37-B11F-4767-B151-020D4C9F5E3B", 84, 1354582353, "700497", 1354582374, "700497", "{\n}", "Fremont", "Olive Hyde Art Gallery", "123 Washington Blvd.", "(510) 791-4357" ]
+, [ 85, "7843766C-6FFA-40D3-B597-7E1CD2AFC4E9", 85, 1354582353, "700497", 1354582373, "700497", "{\n}", "Fremont", "Olive Hyde Community Center", null, "(510) 494-4228" ]
+, [ 86, "436A6392-CDE6-4F8F-AA4D-763E90D5CB2C", 86, 1354582353, "700497", 1354582370, "700497", "{\n}", "Fremont", "Patterson House ", "34600 Ardenwood Blvd.", "(510) 791-4196" ]
+, [ 87, "9D84FFA2-0581-4836-AD0F-CE6C6C5E0323", 87, 1354582353, "700497", 1354582375, "700497", "{\n}", "Fremont", "Rancho Higuera Historical Park", "47300 Rancho Higuera Rd.", "(510) 791-4340" ]
+, [ 88, "719734F2-EA64-47D8-A2EB-9BAF17C72E2D", 88, 1354582353, "700497", 1354582372, "700497", "{\n}", "Fremont", "Shinn House & Historical Park", "1251 Peralta Ave.", "(510) 795-0891" ]
+, [ 89, "4DE3C02F-853E-4DEF-B676-544B45CC3979", 89, 1354582353, "700497", 1354582371, "700497", "{\n}", "Fremont", "Sports Complex/Tennis Center", "1110 Stevenson Blvd.", "(510) 791-4380" ]
+, [ 90, "2EE07011-E973-4015-9CA0-7CBA04D0FB79", 90, 1354582353, "700497", 1354582369, "700497", "{\n}", "Fremont", "Vallejo Adobe", "36501 Niles Blvd.", null ]
+, [ 91, "3320E804-6B4F-4BD9-928C-503CA7D6DCEF", 91, 1354582353, "700497", 1354582369, "700497", "{\n}", "Fremont", "Vallejo Mill Historical Park", "Mission Blvd. & Niles Canyon Rd.", null ]
+, [ 92, "AE40EFF5-338A-45E8-BBAE-EFE0F238D6D9", 92, 1354582353, "700497", 1354582376, "700497", "{\n}", "Fremont", "Warm Springs Community Center", "47300 Fernald ", "(510) 791-4318" ]
+, [ 93, "8A2A6D64-A144-4C77-9384-C9AB4D12916D", 93, 1354582353, "700497", 1354582374, "700497", "{\n}", "Fremont", "Weibel Winery", "1250 Stanford Ave.", null ]
+, [ 94, "99CC5191-84EB-48D5-8385-26A22C46DBE6", 94, 1354582353, "700497", 1354582374, "700497", "{\n}", "Hayward", "Adobe Art Center Gallery", "1099 E St.", "(510) 881-6735" ]
+, [ 95, "64A549DE-0EDD-4F02-AF9B-49A119955D3F", 95, 1354582353, "700497", 1354582372, "700497", "{\n}", "Hayward", "All Saints Roman Catholic Church", null, null ]
+, [ 96, "DEDFB0FB-B9DF-487C-8412-51E54EBCB0E2", 96, 1354582353, "700497", 1354582377, "700497", "{\n}", "Hayward", "Bradford Station Post Office", null, null ]
+, [ 97, "5892C02E-CC94-4C5E-8C1B-313D9F88C085", 97, 1354582353, "700497", 1354582371, "700497", "{\n}", "Hayward", "Centennial Bridge Plaque", "2nd & Civic Center Dr.", null ]
+, [ 98, "02122A2D-F186-4774-9DAB-7390331CF73B", 98, 1354582353, "700497", 1354582364, "700497", "{\n}", "Hayward", "Centennial Hall Mural", "22292 Foothill Blvd.", null ]
+, [ 99, "9EBA2414-404F-4636-86A3-92A400C6B970", 99, 1354582353, "700497", 1354582375, "700497", "{\n}", "Hayward", "City Hall", "Mission", null ]
+, [ 100, "58E1C959-FD37-454C-BABC-C3F2E2AA528D", 100, 1354582353, "700497", 1354582371, "700497", "{\n}", "Hayward", "CSU Hayward Art Gallery", "25800 Carlos Bee Blvd.", "(510) 885-3111" ]
+, [ 101, "0D2BFED7-CDFC-4637-9924-7322787E98BB", 101, 1354582353, "700497", 1354582366, "700497", "{\n}", "Hayward", "CSU Hayward Campus", null, null ]
+, [ 102, "91781C8E-DDC3-49E3-9142-7EEBDB8F3FD8", 102, 1354582353, "700497", 1354582374, "700497", "{\n}", "Hayward", "CSU Hayward Smith Museum of Anthropology", null, "(510) 885-3104" ]
+, [ 103, "12B38029-0FC3-45EA-B629-EDFB58CA17C2", 103, 1354582353, "700497", 1354582367, "700497", "{\n}", "Hayward", "DeAnza Campsite #96", "Foothill Blvd. & Civic Center", null ]
+, [ 104, "EB37DF06-8ADE-4C7D-AC60-DFDF11E33C1E", 104, 1354582353, "700497", 1354582377, "700497", "{\n}", "Hayward", "Downtown Hayward", null, null ]
+, [ 105, "BBAD6B5F-82A8-43EB-B80E-244658EC027F", 105, 1354582353, "700497", 1354582376, "700497", "{\n}", "Hayward", "Hayward Area Historical Museum", "22701 Main St.", "(510) 581-0223" ]
+, [ 106, "D4B2EF64-26DE-48BB-8495-62432D9A654D", 106, 1354582353, "700497", 1354582377, "700497", "{\n}", "Hayward", "Hayward Little Theater", "N. 3rd & Crescent", null ]
+, [ 107, "7D49C696-684E-40E1-8C43-212702F878C1", 107, 1354582353, "700497", 1354582373, "700497", "{\n}", "Hayward", "Hayward Plunge", "24176 Mission Blvd.", null ]
+, [ 108, "975E722B-70AA-43AA-A410-DB8783ACF728", 108, 1354582353, "700497", 1354582374, "700497", "{\n}", "Hayward", "Hayward Shoreline Interpretive Center", "Breakwater Ave.", "(510) 881-6751" ]
+, [ 109, "2243FCCB-C943-48EE-B322-964B5A87CE62", 109, 1354582353, "700497", 1354582368, "700497", "{\n}", "Hayward", "Ioof Hall", "952 B St.", null ]
+, [ 110, "0375344D-CFBF-4408-A5BE-C2F0869E63EB", 110, 1354582353, "700497", 1354582364, "700497", "{\n}", "Hayward", "Japanese Gardens", "22372 N. 3rd St.", "(510) 881-6715" ]
+, [ 111, "51B4B7F4-0466-4231-9085-2CE971189E9E", 111, 1354582353, "700497", 1354582371, "700497", "{\n}", "Hayward", "Marina ", null, null ]
+, [ 112, "45D939C1-D66C-4A31-9CE8-4964605ECA4E", 112, 1354582353, "700497", 1354582370, "700497", "{\n}", "Hayward", "McConaghy House Museum", "18701 Hesperian Blvd.", "(510) 276-3010" ]
+, [ 113, "2A631990-30CC-4E83-8C2D-24F7A491D782", 113, 1354582353, "700497", 1354582369, "700497", "{\n}", "Hayward", "Meek Estate & Mansion", "Hampton & Boston", "(510) 881-6700" ]
+, [ 114, "38460C3B-E3D3-4517-A3BD-1ED3B52C3494", 114, 1354582353, "700497", 1354582370, "700497", "{\n}", "Hayward", "Pioneer Fire Bell", "Main & C St.", null ]
+, [ 115, "773FA042-5FAD-4833-B1C2-F6708FBA6976", 115, 1354582353, "700497", 1354582372, "700497", "{\n}", "Hayward", "Portuguese Centennial Park", "1st & C St.", null ]
+, [ 116, "110E1064-8FCD-4C50-A0B9-3AA727C20624", 116, 1354582353, "700497", 1354582367, "700497", "{\n}", "Hayward", "San Felipe Community Center", "2058 D St.", "(510) 881-6700" ]
+, [ 117, "FE7AFDD2-AB01-4D7D-BDEB-7375DB26FEA7", 117, 1354582353, "700497", 1354582378, "700497", "{\n}", "Hayward", "Shinn House", null, "(510) 581-0223" ]
+, [ 118, "CD5BDE57-B401-4820-BAD5-0C2FA399547F", 118, 1354582353, "700497", 1354582377, "700497", "{\n}", "Hayward", "Southgate Community Center", "Chiplay & Sleepy Hollow", "(510) 881-6700" ]
+, [ 119, "173D0272-1F22-4543-913C-C5450B28EFED", 119, 1354582353, "700497", 1354582368, "700497", "{\n}", "Hayward", "Sulphur Creek Nature Center", "1801 D St.", "(510)881-6747" ]
+, [ 120, "A354A5B1-5D64-4F36-975E-F1917442F054", 120, 1354582353, "700497", 1354582375, "700497", "{\n}", "Hayward", "Sun Gallery", "1015 E St.", "(510) 581-4050" ]
+, [ 121, "370CE5A2-BA5A-4488-8279-B1F9F731C6BB", 121, 1354582353, "700497", 1354582370, "700497", "{\n}", "Hayward", "The Castle (private residence)", "Walpert & 2nd St.", null ]
+, [ 122, "D09A7518-9E33-4B83-A9A7-64ABDFA9C585", 122, 1354582353, "700497", 1354582377, "700497", "{\n}", "Hayward", "Weekes Community Center", "27176 Mission Blvd.", null ]
+, [ 123, "6109025B-3B8B-4FEA-AA0B-F73B84ED37CF", 123, 1354582353, "700497", 1354582372, "700497", "{\n}", "Livermore", "Buckley Estate", "2647 Arroyo Rd.", "(925) 373-5770" ]
+, [ 124, "AE33F0B9-A51B-46FD-A360-902674A9F7EA", 124, 1354582353, "700497", 1354582375, "700497", "{\n}", "Livermore", "Carnegie Park Art Gallery", "2155  3rd St.", null ]
+, [ 125, "D0F332C0-8CDE-4841-A9AC-C543C311206A", 125, 1354582353, "700497", 1354582377, "700497", "{\n}", "Livermore", "ConCannon Winery", "4500 Tesla Rd.", null ]
+, [ 126, "B6635804-62D7-4A8A-A6AD-A1D78FDBE7A5", 126, 1354582353, "700497", 1354582376, "700497", "{\n}", "Livermore", "Harrisville", "Tesla Rd.", null ]
+, [ 127, "95F66B22-46B1-4E9D-A089-673383442ED5", 127, 1354582353, "700497", 1354582374, "700497", "{\n}", "Livermore", "Jane Addams House", "1310 Murdell Ln.", null ]
+, [ 128, "19025D8C-A42B-4E91-B4E5-61CD228352F7", 128, 1354582353, "700497", 1354582368, "700497", "{\n}", "Livermore", "Livermore Community Gardens", "Turnstone Dr.", null ]
+, [ 129, "7CFBB2FE-3BA8-437E-B706-B91BE69993DF", 129, 1354582353, "700497", 1354582373, "700497", "{\n}", "Livermore", "Livermore Heritage Guild & History Center", "2155  3rd St.", "(925) 449-9927" ]
+, [ 130, "6B40DC72-8490-49CA-A939-CE213AEB2588", 130, 1354582353, "700497", 1354582372, "700497", "{\n}", "Livermore", "Raveswood Historical Site", "2647 Arroyo Rd.", null ]
+, [ 131, "1F2AC0E9-57E8-43BF-AC07-B833D01DDE70", 131, 1354582353, "700497", 1354582368, "700497", "{\n}", "Livermore", "Robert Livermore Home Site", "L St. & Portola Ave.", null ]
+, [ 132, "22B5469B-9951-4137-B226-F42450BE0372", 132, 1354582353, "700497", 1354582368, "700497", "{\n}", "Livermore", "Robertson Equestriam Center", "Robertson Park Rd.", null ]
+, [ 133, "01CC9558-E31B-42BD-B123-EBA265F92780", 133, 1354582353, "700497", 1354582364, "700497", "{\n}", "Livermore", "The Barn", "3131 Pacific Ave.", null ]
+, [ 134, "A73E4AB7-8926-4E92-9F4F-B69A76CED265", 134, 1354582353, "700497", 1354582375, "700497", "{\n}", "Livermore", "Veteran's Memorial Building", "522 S. L St.", null ]
+, [ 135, "0FD630C0-0775-4774-823F-97D9D309261C", 135, 1354582353, "700497", 1354582366, "700497", "{\n}", "Newark", "Cargill Salt Pons", "Thornton & Mowry", null ]
+, [ 136, "FAB51D46-AE52-46D0-AECE-06CB3042142C", 136, 1354582353, "700497", 1354582378, "700497", "{\n}", "Newark", "Leslie Salt Ponds", "Thornton & Mowry", null ]
+, [ 137, "D272DE0F-DA21-4D4B-8BA5-511A8DA32BE5", 137, 1354582353, "700497", 1354582377, "700497", "{\n}", "Newark", "Newark Community Center", "35501 Cedar Blvd.", "(510) 742-4437" ]
+, [ 138, "E1050758-226F-4AD8-8BDE-D6F31BD60DC3", 138, 1354582353, "700497", 1354582377, "700497", "{\n}", "Newark", "Newark History Museum/Watkins Hall", "37013 Ash St.", null ]
+, [ 139, "4FB45B58-9F12-4B2B-A3AB-D01A7B52973F", 139, 1354582353, "700497", 1354582371, "700497", "{\n}", "Newark", "Pioneer Hotel", "Thornton Ave. & SP RR tracks", null ]
+, [ 140, "B1CBBB4D-A11D-40D7-A07A-CAD4EAF47F68", 140, 1354582353, "700497", 1354582376, "700497", "{\n}", "Newark", "Portuguese Pavilion", "Cherry & Thornton Ave.", null ]
+, [ 141, "7F289239-1982-426C-BC35-FB11E5C1872C", 141, 1354582353, "700497", 1354582373, "700497", "{\n}", "Newark", "Railroad Yards", "Thornton Ave. & SP RR tracks", null ]
+, [ 142, "39FB6335-8DBE-41D2-A076-C6D3AC9EC4C1", 142, 1354582353, "700497", 1354582370, "700497", "{\n}", "Newark", "San Francisco Bay National Wildlife Refuge", null, "(510) 792-0222" ]
+, [ 143, "9E0E863A-A0B9-4B5C-B1A3-C5065209A5B9", 143, 1354582353, "700497", 1354582375, "700497", "{\n}", "Newark", "Silliman Activity Center", "6800 Mowry Ave.", "(510) 742-4400" ]
+, [ 144, "FD6CDD34-7C11-432A-84D2-F891612B1397", 144, 1354582353, "700497", 1354582378, "700497", "{\n}", "Newark", "St. Edward's Catholic Church", "Sycamore & Rich St.", null ]
+, [ 145, "9498D276-9DA4-474F-9CFC-2A4FF47A3465", 145, 1354582353, "700497", 1354582374, "700497", "{\n}", "Newark", "Swiss Community Pavilion", "5911 Mowry Ave.", null ]
+, [ 146, "8726DAE6-3603-44A6-91FD-1E233DF34252", 146, 1354582353, "700497", 1354582373, "700497", "{\n}", "Oakland", "1st Unitarian Church", "14th & Castro", null ]
+, [ 147, "45FEF0A4-F322-40CE-947E-3D29440D67D3", 147, 1354582353, "700497", 1354582370, "700497", "{\n}", "Oakland", "African American Museum & Library", "659  14th St.", "(510) 238-6716" ]
+, [ 148, "AA6FF559-8910-4001-8465-A28FD13801C6", 148, 1354582353, "700497", 1354582375, "700497", "{\n}", "Oakland", "Alice Arts Center", "1428 Alice St.", "(510) 238-7219" ]
+, [ 149, "BE652906-C523-4928-86D3-BCF996AE4272", 149, 1354582353, "700497", 1354582376, "700497", "{\n}", "Oakland", "Allendale Recreation Center", "3711 Suter St.", "(510) 535-5635" ]
+, [ 150, "BBAC54BE-0E75-4017-968C-446FC5AC6CDA", 150, 1354582353, "700497", 1354582376, "700497", "{\n}", "Oakland", "Arroyo Viejo Recreation Center", "7701 Krause Ave.", "(510) 615-5755" ]
+, [ 151, "F1A5CD54-DDCB-4A9A-B937-E7A045D41C0F", 151, 1354582353, "700497", 1354582377, "700497", "{\n}", "Oakland", "Bret Harte Boardwalk", "577  5th St.", null ]
+, [ 152, "4D9367DA-059A-4EC2-8BD4-8A63C8FA3D03", 152, 1354582353, "700497", 1354582371, "700497", "{\n}", "Oakland", "Brookdale Recreation Center", "2535 High St.", "(510) 535-5632" ]
+, [ 153, "C16B1F3D-CAF5-4AE6-A2E8-3EB6615F20D0", 153, 1354582353, "700497", 1354582376, "700497", "{\n}", "Oakland", "Brookfield Recreation Center", "525 Jones Ave.", null ]
+, [ 154, "927874C0-3842-457F-86EB-109C252D304C", 154, 1354582353, "700497", 1354582374, "700497", "{\n}", "Oakland", "Brooklyn Presbyterian Church/Grace Temple", "12th Ave. & 15th St.", null ]
+, [ 155, "5EC7C0F8-058B-4AEB-85C2-C75998FF67D5", 155, 1354582353, "700497", 1354582372, "700497", "{\n}", "Oakland", "Bushrod Recreation Center", "560  59th St.", "(510) 597-5031" ]
+, [ 156, "C82E493A-5053-47D8-9DDA-EE5D7376B16C", 156, 1354582353, "700497", 1354582376, "700497", "{\n}", "Oakland", "Camron-Stanford House", "1418 Lakeside Dr.", "(510) 444-1876" ]
+, [ 157, "87C0BBC9-B5F1-4463-BE44-C7016E3FB656", 157, 1354582353, "700497", 1354582373, "700497", "{\n}", "Oakland", "Carmen Flores/Sanborn Recreation Center", "1637 Fruitvale Ave.", "(510) 535-5631" ]
+, [ 158, "17E93F03-2227-4DAB-91C4-2BDA1E0E2DDE", 158, 1354582353, "700497", 1354582368, "700497", "{\n}", "Oakland", "Center for Visual Arts", "713 Washington St.", "(510) 451-6300" ]
+, [ 159, "1617E4BE-9831-461D-8E83-9FD14853DF5F", 159, 1354582353, "700497", 1354582367, "700497", "{\n}", "Oakland", "Chabot Space & Science Center", "10000 Skyline Blvd.", "(510) 336-7300" ]
+, [ 160, "CB459A7D-0AF8-431C-AC32-0FB4620569D3", 160, 1354582353, "700497", 1354582376, "700497", "{\n}", "Oakland", "Chapel of the Chimes", "Mountain View Cemetery", null ]
+, [ 161, "9822E598-C674-45E4-84C5-627E6FD6C490", 161, 1354582353, "700497", 1354582374, "700497", "{\n}", "Oakland", "Children's Fairyland", "699 Bellevie Ave.", "(510) 452-2259" ]
+, [ 162, "4CD9A817-1372-47AE-8E72-F346C65C38EE", 162, 1354582353, "700497", 1354582371, "700497", "{\n}", "Oakland", "Chinatown", "between Broadway, Alice, 13th & 7th", null ]
+, [ 163, "0E342132-0132-4706-AE0B-1E16EC2276FC", 163, 1354582353, "700497", 1354582366, "700497", "{\n}", "Oakland", "Chinese Presbyterian Church", "310  8th St.", null ]
+, [ 164, "7B360C93-5A27-4BA2-943A-03FF9194B62E", 164, 1354582353, "700497", 1354582373, "700497", "{\n}", "Oakland", "City Center", "Broadway & 14th St.", null ]
+, [ 165, "406CC8CD-5B91-442B-8507-5253B2007677", 165, 1354582353, "700497", 1354582370, "700497", "{\n}", "Oakland", "Cohen-Bray House", "1440  29th Ave.", "(510) 532-0704" ]
+, [ 166, "DCF92ACC-B977-478E-9DCE-FB965233B4C2", 166, 1354582353, "700497", 1354582377, "700497", "{\n}", "Oakland", "Community Action", "14th St. & Martin Luther King Jr. Way", null ]
+, [ 167, "41626171-F1F0-4A58-8133-E9A95A6DA586", 167, 1354582353, "700497", 1354582370, "700497", "{\n}", "Oakland", "Creative Growth Art Center", "355  24th St.", "(510) 836-2340" ]
+, [ 168, "7C6533DB-026B-4DF7-BE03-4154940C3BCA", 168, 1354582353, "700497", 1354582373, "700497", "{\n}", "Oakland", "Davie Tennis Stadium", "196 Oak Rd.", "(510) 444-5663" ]
+, [ 169, "7734174C-B0F0-4FC0-8D9D-C52BA8795C23", 169, 1354582353, "700497", 1354582372, "700497", "{\n}", "Oakland", "DeFremery House", "18th St. & Adeline", null ]
+, [ 170, "F9EEA69E-9381-4351-9686-4FB479647B81", 170, 1354582353, "700497", 1354582378, "700497", "{\n}", "Oakland", "DeFremery Recreation Center", "1651 Adeline St.", "(510) 238-7739" ]
+, [ 171, "4AF2E094-39C6-44D2-A477-8F928D01743E", 171, 1354582353, "700497", 1354582371, "700497", "{\n}", "Oakland", "Dimond Recreation Center", "3860 Hanly Rd.", "(510) 482-7831" ]
+, [ 172, "23E8AE1B-1912-42E8-B9E3-4779898BA80F", 172, 1354582353, "700497", 1354582368, "700497", "{\n}", "Oakland", "Dunsmuir House & Gardens", "2960 Peralta Oak Ct.", "(510) 562-0328" ]
+, [ 173, "119E7B93-26BA-457A-9C92-119738262133", 173, 1354582353, "700497", 1354582367, "700497", "{\n}", "Oakland", "Ebony Musuem of Arts", "1034  14th St.", "(510) 763-0141" ]
+, [ 174, "75022697-2338-450C-A98D-5FA0968E786F", 174, 1354582353, "700497", 1354582372, "700497", "{\n}", "Oakland", "F.M. Smith Recreation Center", "1969 Park Blvd.", "(510) 238-7742" ]
+, [ 175, "1F44A5A1-622C-48E3-8FE5-2D36247062DC", 175, 1354582353, "700497", 1354582368, "700497", "{\n}", "Oakland", "Fire Alarm Building", "14th at Oak St.", null ]
+, [ 176, "5CF81810-68C3-4FD3-AE9B-4A1963B17D4E", 176, 1354582353, "700497", 1354582371, "700497", "{\n}", "Oakland", "Franklin Recreation Center", "1010 E. 15th St.", "(510) 238-7741" ]
+, [ 177, "B55A4BD7-5E14-40AF-B962-8F201E858144", 177, 1354582353, "700497", 1354582376, "700497", "{\n}", "Oakland", "Golden Gate Recreation Center", "1075  62nd St.", "(510) 597-5032" ]
+, [ 178, "9B60020A-3881-41D9-98EF-E33A61FE462B", 178, 1354582353, "700497", 1354582374, "700497", "{\n}", "Oakland", "Gondola Serizio", "568 Bellevue Ave.", "(510) 663-6603" ]
+, [ 179, "FD25F9F6-FD3D-4E29-B785-D8F3FB2EC142", 179, 1354582353, "700497", 1354582378, "700497", "{\n}", "Oakland", "Greene Library", null, null ]
+, [ 180, "67A995C0-CEBC-4C55-87C0-37E1B0808F00", 180, 1354582353, "700497", 1354582372, "700497", "{\n}", "Oakland", "Haddon Hill", null, null ]
+, [ 181, "28BA62B8-2858-42A1-A84C-FE1A46879C9A", 181, 1354582353, "700497", 1354582369, "700497", "{\n}", "Oakland", "Hall of Justice", "7th St. & Broadway", null ]
+, [ 182, "C080E1ED-FCB7-4100-93D6-5592A4F1A204", 182, 1354582353, "700497", 1354582376, "700497", "{\n}", "Oakland", "Henry J. Kaiser Convention Center", "10  10th St.", "(510) 238-7765" ]
+, [ 183, "401FDF49-3282-41BD-9292-EFDF60C436A1", 183, 1354582353, "700497", 1354582370, "700497", "{\n}", "Oakland", "Holy Names College", "3500 Mountain Blvd.", "(510) 436-1511" ]
+, [ 184, "216A6E77-9965-4697-A2DD-97EDE159E909", 184, 1354582353, "700497", 1354582368, "700497", "{\n}", "Oakland", "Hotel Claremont", "Russell & Domingo", null ]
+, [ 185, "4E2FE2BA-303F-4603-B979-7F812F092676", 185, 1354582353, "700497", 1354582371, "700497", "{\n}", "Oakland", "Ira Jinkins/Brookfield Recreation Center", "9175 Edes Ave.", "(510) 615-5959" ]
+, [ 186, "878DF12D-4530-45A4-9C09-2EDD8C3091F0", 186, 1354582353, "700497", 1354582373, "700497", "{\n}", "Oakland", "Jack London Square & Museum", null, "(510) 451-8218" ]
+, [ 187, "6618E7F2-A41D-49AE-9E7F-8B6823E6817B", 187, 1354582353, "700497", 1354582372, "700497", "{\n}", "Oakland", "Joaquin Miller Abbey", "Joaquin Miller Rd.", null ]
+, [ 188, "10D3F755-188B-4086-886D-D0A0306B28CC", 188, 1354582353, "700497", 1354582367, "700497", "{\n}", "Oakland", "Joaquin Miller Community Center", "3594 Sanborn Dr.", "(510) 482-7870" ]
+, [ 189, "B0CEBEED-0171-49E2-8B3C-C2B47B1077F3", 189, 1354582353, "700497", 1354582376, "700497", "{\n}", "Oakland", "Junior Art & Science Center", "558 Bellevue Ave.", "(510) 839-5777" ]
+, [ 190, "7B29B0D3-7E0E-4CF9-897C-6C882581347D", 190, 1354582353, "700497", 1354582373, "700497", "{\n}", "Oakland", "Kennedy Art Center Gallery", "3500 Mountain Blvd.", "(510) 436-1457" ]
+, [ 191, "0838FE54-0061-47CE-8E90-D398FBF665DA", 191, 1354582353, "700497", 1354582366, "700497", "{\n}", "Oakland", "Lake Merritt Sailboat House", "568 Bellevue Ave.", "(510) 238-3187" ]
+, [ 192, "7DDFA59C-29E9-4CBA-A10C-2275A9DA2AD9", 192, 1354582353, "700497", 1354582373, "700497", "{\n}", "Oakland", "Lake Merritt/Lakeside Park", "Grand & Bellevue Ave.", "(510) 238-7275" ]
+, [ 193, "64394DA7-8763-4B93-B658-4D7248381BAA", 193, 1354582353, "700497", 1354582372, "700497", "{\n}", "Oakland", "Laney Tennis Stadium", "900 Fallon St.", "(510) 444-5663" ]
+, [ 194, "342BC08C-7052-4E76-AC1E-8F3917AD377B", 194, 1354582353, "700497", 1354582370, "700497", "{\n}", "Oakland", "Leona Lodge", "4444 Mountain Blvd.", "(510) 238-3187" ]
+, [ 195, "4D46525A-CD82-4556-9624-0B5519723320", 195, 1354582353, "700497", 1354582371, "700497", "{\n}", "Oakland", "Lincoln Square Recreation Center", "250  10th St.", "(510) 238-7738" ]
+, [ 196, "FAEA43F2-0205-4956-9E87-6B86C3F45B29", 196, 1354582353, "700497", 1354582378, "700497", "{\n}", "Oakland", "Manzanita Recreation Center", "2701  22nd Ave.", "(510) 535-5625" ]
+, [ 197, "DA3515D7-DC3B-406E-A3A3-C180F1B9009C", 197, 1354582353, "700497", 1354582377, "700497", "{\n}", "Oakland", "Marina", null, null ]
+, [ 198, "0A92A9F8-BA6F-4137-A944-F3E6D3525CCA", 198, 1354582353, "700497", 1354582366, "700497", "{\n}", "Oakland", "Merritt College", null, null ]
+, [ 199, "8E481151-C9A2-4DD1-A91C-E5BCAE259F0D", 199, 1354582353, "700497", 1354582374, "700497", "{\n}", "Oakland", "Merritt College Anthropology Museum", "12500 Campus Dr.", "(510) 531-4911" ]
+, [ 200, "6C7BE292-ED2F-4783-8986-A8DDAFDAB584", 200, 1354582353, "700497", 1354582372, "700497", "{\n}", "Oakland", "Mills College", null, null ]
+, [ 201, "C10E28F1-F27D-4017-AA2A-0DDF76F3D7A2", 201, 1354582353, "700497", 1354582376, "700497", "{\n}", "Oakland", "Mills College Art Museum", "5000 MacArthur Blvd.", "(510) 430-2164" ]
+, [ 202, "E47AC37C-385F-41CA-80F4-E89A2D9DB1C7", 202, 1354582353, "700497", 1354582377, "700497", "{\n}", "Oakland", "Montclair Recreation Center", "6300 Moraga Ave.", "(510) 482-7812" ]
+, [ 203, "0791D52A-2F7F-4A65-97FD-69FEA725A5E2", 203, 1354582353, "700497", 1354582364, "700497", "{\n}", "Oakland", "Morcom Amphitheater of Roses", null, null ]
+, [ 204, "1712C9F4-6884-4E80-9536-A07E11FE8126", 204, 1354582353, "700497", 1354582368, "700497", "{\n}", "Oakland", "Moss Cottage", "MacArthur Blvd. & Broadway", null ]
+, [ 205, "536C0A32-4B85-4018-8D71-ED6AAA829327", 205, 1354582353, "700497", 1354582371, "700497", "{\n}", "Oakland", "Mosswood Recreation Center", "3612 Webster St.", "(510) 597-5038" ]
+, [ 206, "A46FA191-EB9A-4FF3-86A7-8CE5D2063711", 206, 1354582353, "700497", 1354582375, "700497", "{\n}", "Oakland", "Mountain View Cemetery", "5000 Piedmont Ave.", "(510) 658-2588" ]
+, [ 207, "22DB2A97-4F05-4FA1-8052-4F53F28B6107", 207, 1354582353, "700497", 1354582368, "700497", "{\n}", "Oakland", "Museum of Children's Art (MOCHA)", "560  2nd St.", "(510) 465-8770" ]
+, [ 208, "68FA2CE4-5406-48AC-8BF3-1B6EB75CD5CB", 208, 1354582353, "700497", 1354582372, "700497", "{\n}", "Oakland", "Network Associates Coliseum & Arena", "7000 Coliseum Way", "(510) 569-2121" ]
+, [ 209, "E3AE255C-CC47-4802-81A1-8E6122C8BFE0", 209, 1354582353, "700497", 1354582377, "700497", "{\n}", "Oakland", "Oakland Asian Cultural Center", "388  9th St. Suite 290", "(510) 208-6080" ]
+, [ 210, "A5C6B586-1F9E-4F60-BBBB-5BE777B9B827", 210, 1354582353, "700497", 1354582375, "700497", "{\n}", "Oakland", "Oakland City Stables/Wildcat Canyon Ranch", "13560 Skyline Blvd.", "(510) 430-9510" ]
+, [ 211, "4B46A156-99CA-4C03-8CA1-2158E5A6835D", 211, 1354582353, "700497", 1354582371, "700497", "{\n}", "Oakland", "Oakland Convention Center", "1001 Broadway", "(510) 839-9000" ]
+, [ 212, "3F247161-4C77-43A7-9551-406C56D23C36", 212, 1354582353, "700497", 1354582370, "700497", "{\n}", "Oakland", "Oakland Discovery Center (East)", "2521 High St.", "(510) 535-5657" ]
+, [ 213, "7AAF2D59-A968-4DD9-AC50-61AD2B26D5F9", 213, 1354582353, "700497", 1354582373, "700497", "{\n}", "Oakland", "Oakland Discovery Center (West)", "935 Union St.", "(510) 832-3314" ]
+, [ 214, "45095BE1-5ED3-486E-9A89-17FAD23840C9", 214, 1354582353, "700497", 1354582370, "700497", "{\n}", "Oakland", "Oakland Ice Center", "519  18th St.", "(510) 268-9000" ]
+, [ 215, "CF391CF7-D552-46B1-AE2E-2C9EE4F9F970", 215, 1354582353, "700497", 1354582377, "700497", "{\n}", "Oakland", "Oakland Main Library", "125  14th St.", "(510) 238-7241" ]
+, [ 216, "01231AED-A7ED-4CAB-BF2F-0CD7C3FB34B8", 216, 1354582353, "700497", 1354582364, "700497", "{\n}", "Oakland", "Oakland Mormon Temple & Visitor Center", "4770 Lincoln Ave.", "(510) 531-1475" ]
+, [ 217, "68BFE2B5-75FE-4C90-84EB-763C84B6CB89", 217, 1354582353, "700497", 1354582372, "700497", "{\n}", "Oakland", "Oakland Museum of California", "1000 Oak St.", "(888) 625-6873" ]
+, [ 218, "B36B366A-ED58-48E2-86DB-C3029CE4BA05", 218, 1354582353, "700497", 1354582376, "700497", "{\n}", "Oakland", "Oakland Museum Sculpture Court at City Center", "1111 Broadway", "(510) 238-3401" ]
+, [ 219, "936FF753-CC91-43AF-B0CF-1E4299F245CF", 219, 1354582353, "700497", 1354582374, "700497", "{\n}", "Oakland", "Oakland Walking Tours", null, "(510) 238-3234" ]
+, [ 220, "8282FECD-7B0A-4928-8D14-2E790CCA552A", 220, 1354582353, "700497", 1354582373, "700497", "{\n}", "Oakland", "Oakland Zoo", "9777 Golf Links Rd.", "(510) 632-9525" ]
+, [ 221, "92AE68BC-FD44-475B-88AF-247DACF33EAD", 221, 1354582353, "700497", 1354582374, "700497", "{\n}", "Oakland", "Old Oakland Historic District", "between 8th, 10th, Clay & Washington", null ]
+, [ 222, "A669D5E7-3B70-41DB-B180-DFDA986DE61F", 222, 1354582353, "700497", 1354582375, "700497", "{\n}", "Oakland", "Pacific Renaissance Plaza", "388  9th St.  ", null ]
+, [ 223, "2D4F8671-2232-4783-A430-2984EFAF01F1", 223, 1354582353, "700497", 1354582369, "700497", "{\n}", "Oakland", "Paramont Theater", "2025 Broadway ", "(510) 465-6400" ]
+, [ 224, "4FE3619B-A9E7-4592-96B7-D924E3C96F03", 224, 1354582353, "700497", 1354582371, "700497", "{\n}", "Oakland", "Pardee Home Museum", "672  11th St.", "(510) 444-2187" ]
+, [ 225, "2D2A7C64-5A31-48E2-8240-065424E4E063", 225, 1354582353, "700497", 1354582369, "700497", "{\n}", "Oakland", "Peralta House", "34th Ave. at Paxton", "(510) 532-9142" ]
+, [ 226, "11D0FCDE-DEA4-471F-82BB-65043F0F38A3", 226, 1354582353, "700497", 1354582367, "700497", "{\n}", "Oakland", "Poplar Recreation Center", "3131 Union St.", "(510) 597-5042" ]
+, [ 227, "6D40E766-A578-4150-9C9C-D954FF03E191", 227, 1354582353, "700497", 1354582372, "700497", "{\n}", "Oakland", "Port of Oakland", "530 Water St.", "(510) 627-1188" ]
+, [ 228, "49584547-F312-4299-9222-848F19F56583", 228, 1354582353, "700497", 1354582370, "700497", "{\n}", "Oakland", "Preservation Park", "Grove & Castro from 11th-14th", "(510) 874-7580" ]
+, [ 229, "F9EE462C-249E-42F5-9CF3-71EF4338CBE4", 229, 1354582353, "700497", 1354582378, "700497", "{\n}", "Oakland", "Pro Arts", "461  9th St.", "(510) 763-4361" ]
+, [ 230, "2F0A3864-4ED3-46BE-BA20-5D8E7BA9CAD8", 230, 1354582353, "700497", 1354582369, "700497", "{\n}", "Oakland", "Public Art Program", null, "(510) 238-2155" ]
+, [ 231, "BADA9626-C362-42E9-8887-708EF2D2CC8F", 231, 1354582353, "700497", 1354582376, "700497", "{\n}", "Oakland", "Rainbow Recreation Center", "5800 International Blvd.", "(510) 615-5751" ]
+, [ 232, "C5E4F739-D3C9-40F5-BF6B-54877B88D735", 232, 1354582353, "700497", 1354582376, "700497", "{\n}", "Oakland", "Redwood Heights Recreation Center", "3883 Aliso Ave.", "(510) 482-7827" ]
+, [ 233, "AA918340-9C9C-4574-BDDD-49C35028A175", 233, 1354582353, "700497", 1354582375, "700497", "{\n}", "Oakland", "Remillard House", null, null ]
+, [ 234, "944010ED-2ECF-420D-81C7-28BF046885F4", 234, 1354582353, "700497", 1354582374, "700497", "{\n}", "Oakland", "Rotary Nature Center/Lake Merritt Wildlife Refuge", "552 Bellevue Ave.", "(510) 238-3739" ]
+, [ 235, "642AF41D-3119-4406-B5D6-1B3BA323D17C", 235, 1354582353, "700497", 1354582372, "700497", "{\n}", "Oakland", "San Antonio Recreation Center", "1701 E. 19th St.", "(510) 535-5608" ]
+, [ 236, "2A34DEEC-ABE0-4C98-AE26-2E858FC3826C", 236, 1354582353, "700497", 1354582369, "700497", "{\n}", "Oakland", "Sequoia Lodge", "2666 Mountain Blvd.", "(510) 238-3187" ]
+, [ 237, "214A8847-1475-42FF-8448-D640CF213D25", 237, 1354582353, "700497", 1354582368, "700497", "{\n}", "Oakland", "Sheffield Village Recreation Center", "247 Marlow Dr.", "(510) 638-7190" ]
+, [ 238, "A4DDF543-578A-4A37-A52F-D8253FF5F5C4", 238, 1354582353, "700497", 1354582375, "700497", "{\n}", "Oakland", "St. James Episcopal Church", "1540  12th Ave.", null ]
+, [ 239, "B9967C16-3739-4CA9-9825-B5FA7E86954E", 239, 1354582353, "700497", 1354582376, "700497", "{\n}", "Oakland", "Studio One Art Center", "365  45th St.", "(510) 597-5027" ]
+, [ 240, "F57DA3B6-BC1C-4A34-9F25-248723E7905D", 240, 1354582353, "700497", 1354582377, "700497", "{\n}", "Oakland", "Swans Marketplace", "9th & Clay St.", "(510) 832-9078" ]
+, [ 241, "4149545E-FC9E-418C-9FBD-0DFFA373A8C0", 241, 1354582353, "700497", 1354582370, "700497", "{\n}", "Oakland", "Tassfaronga Recreation Center", "975  85th Ave.", "(510) 615-5764" ]
+, [ 242, "6FBA1851-76D4-49B6-896D-CCC5A1E1F278", 242, 1354582353, "700497", 1354582372, "700497", "{\n}", "Oakland", "Treadwell House", "Broadway & College", null ]
+, [ 243, "6B9EB82A-3BAB-4F4E-A4CE-D71A4BC0272F", 243, 1354582353, "700497", 1354582372, "700497", "{\n}", "Oakland", "USS Potomac", "FDR Pier, 540 Water St.", "(510) 839-8256" ]
+, [ 244, "4B3C1A29-33F9-4326-B46B-38CF016A6613", 244, 1354582353, "700497", 1354582371, "700497", "{\n}", "Oakland", "Verdese Carter Recreation Center", "9600 Sunnyside St.", "(510) 615-5758" ]
+, [ 245, "1074C3FA-735C-47AB-A701-AEC3EEC66118", 245, 1354582353, "700497", 1354582367, "700497", "{\n}", "Oakland", "Victorian Row", "9th St. & Washington", null ]
+, [ 246, "6E659171-BD1B-491E-871F-ACA11081D218", 246, 1354582353, "700497", 1354582372, "700497", "{\n}", "Oakland", "Western Aerospace Museum", "8260 Boeing St.", "(510) 638-7100" ]
+, [ 247, "820C624C-B9C6-43D0-9BB3-D66F9670DE7F", 247, 1354582353, "700497", 1354582373, "700497", "{\n}", "Oakland", "Woodminster Amphitheater", "3300 Joaquin Miller Rd.", "(510) 531-9597" ]
+, [ 248, "AC87443A-A134-4A82-8B8E-5F4E9A66BE0E", 248, 1354582353, "700497", 1354582375, "700497", "{\n}", "Piedmont", "Crocker Park", "Crocker & Hampton", null ]
+, [ 249, "8CFFA68F-F187-4C8F-B351-311AD50DACA9", 249, 1354582353, "700497", 1354582374, "700497", "{\n}", "Piedmont", "Dracena Park", "55 Artuna", null ]
+, [ 250, "81849844-68B0-49B3-99D7-27D29377C990", 250, 1354582353, "700497", 1354582373, "700497", "{\n}", "Piedmont", "Piedmont Park", "Magnolia & Highland", null ]
+, [ 251, "3438A3FD-9741-4E75-8474-4BB8E2628672", 251, 1354582353, "700497", 1354582370, "700497", "{\n}", "Piedmont", "Piedmont Park Japanese Tea Garden", "711 Highland Ave.", "(510) 420-3075" ]
+, [ 252, "3FAEDCE5-0DBF-4A8D-BF2E-5880A24C9156", 252, 1354582353, "700497", 1354582370, "700497", "{\n}", "Pleasanton", "Amador Livermore Valley Historical Museum", "603 Main St.", "(925) 462-2766" ]
+, [ 253, "2B39CFF6-107E-4D66-A058-6EA3A291737A", 253, 1354582353, "700497", 1354582369, "700497", "{\n}", "Pleasanton", "Amador Theater", "1155 Santa Rita Rd.", null ]
+, [ 254, "51152D43-2598-4005-A4EB-74C3EE8DF2D5", 254, 1354582353, "700497", 1354582371, "700497", "{\n}", "Pleasanton", "Century House", "2401 Santa Rita Rd.", null ]
+, [ 255, "182291D9-8081-45BB-8FB7-19403A474E3F", 255, 1354582353, "700497", 1354582368, "700497", "{\n}", "Pleasanton", "Cultural Arts Center", "4477 Black Ave.", null ]
+, [ 256, "F5BE1035-640C-475E-A1D8-1BE40764CE81", 256, 1354582353, "700497", 1354582378, "700497", "{\n}", "Pleasanton", "Fieldhouse", "5800 Parkside Dr.", null ]
+, [ 257, "87A8F3C7-4AF7-4C77-A0E7-906D3C32B9A9", 257, 1354582353, "700497", 1354582373, "700497", "{\n}", "Pleasanton", "Jeremiah Fallon Home & Farm", "Laurel Creek Way & Foothill Rd.", null ]
+, [ 258, "0D76035D-35C2-4ED8-B153-2632E90A097B", 258, 1354582353, "700497", 1354582366, "700497", "{\n}", "Pleasanton", "Nature House", "519 Kottinger Dr.", null ]
+, [ 259, "03D3585F-DF7C-458F-8579-42ACAEC44E30", 259, 1354582353, "700497", 1354582364, "700497", "{\n}", "Pleasanton", "Pleasanton Hotel", "855 Main St.", null ]
+, [ 260, "C6BAAA49-15EA-4DED-94E0-D51B33540876", 260, 1354582353, "700497", 1354582376, "700497", "{\n}", "Pleasanton", "Presbyterian Church", "Neal & 2nd", null ]
+, [ 261, "E694BD08-FEED-43A9-9B95-F6F3423E158C", 261, 1354582353, "700497", 1354582377, "700497", "{\n}", "Pleasanton", "Rancho Santa Rita Alviso Adobe", "3465 Old Foothill Rd.", null ]
+, [ 262, "173920CF-C018-4939-BC37-27970A20859F", 262, 1354582353, "700497", 1354582368, "700497", "{\n}", "Pleasanton", "Regalia House", "4133 Regalia", null ]
+, [ 263, "B0C3252B-88DD-4BBB-83FC-27D97828ABEC", 263, 1354582353, "700497", 1354582376, "700497", "{\n}", "Pleasanton", "Veteran's Building", "301 Main St.", null ]
+, [ 264, "24C58146-60AB-4F63-9AC0-E39823A0CAE1", 264, 1354582353, "700497", 1354582369, "700497", "{\n}", "San Leandro", "Ashland Community Center", "530  167th Ave.", "(510) 881-6700" ]
+, [ 265, "6D678927-B117-4C37-AC0C-91B42EAAE9A4", 265, 1354582353, "700497", 1354582372, "700497", "{\n}", "San Leandro", "Casa Peralta", "384 W. Estudillo Ave.", "(510) 577-3480" ]
+, [ 266, "0A201804-6D61-4A86-A990-C942C9E4473F", 266, 1354582353, "700497", 1354582366, "700497", "{\n}", "San Leandro", "Estudillo Homesite", "550 W. Estudillo Ave.", null ]
+, [ 267, "F67F9D38-7953-419C-8E2E-15B842FA58FE", 267, 1354582353, "700497", 1354582378, "700497", "{\n}", "San Leandro", "Freitas Library", "Chumallia & E. 14th St.", null ]
+, [ 268, "28241437-D88B-4C15-876B-9AD1D27F455A", 268, 1354582353, "700497", 1354582369, "700497", "{\n}", "San Leandro", "Halcyon Park Building", "1245  147th Ave.", "(510) 577-3462" ]
+, [ 269, "9A52FAB4-8467-4A2E-BBC1-FF9BF36D6020", 269, 1354582353, "700497", 1354582374, "700497", "{\n}", "San Leandro", "Little Shul", "642 Juana", null ]
+, [ 270, "556E4350-4C30-4F4E-8789-60B4018D454D", 270, 1354582353, "700497", 1354582371, "700497", "{\n}", "San Leandro", "Marina Community Center", "15301 Wicks Blvd.", null ]
+, [ 271, "42A51BCB-E29C-4D26-B942-53BF2EB3488C", 271, 1354582353, "700497", 1354582370, "700497", "{\n}", "San Leandro", "Mulford Point/Wicks Landing Site", "Marina Blvd.", null ]
+, [ 272, "83DDC8EE-AC8A-4F5B-929D-2E4764E48D4F", 272, 1354582353, "700497", 1354582373, "700497", "{\n}", "San Leandro", "Museum of the Alameda", "Joaquin & E. 14th St.", null ]
+, [ 273, "DACA7215-3F19-41BF-BF8A-0F869CC44AE2", 273, 1354582353, "700497", 1354582377, "700497", "{\n}", "San Leandro", "Pacific Recreation Complex", "Teagarden & Marina Blvd.", null ]
+, [ 274, "1B8E38F5-A5DC-486C-8BF8-04140B210E0C", 274, 1354582353, "700497", 1354582368, "700497", "{\n}", "San Leandro", "Portuguese Monument", "E. 14th & Chumalia", null ]
+, [ 275, "CE64B62A-237E-4E68-984C-2992450C2ACE", 275, 1354582353, "700497", 1354582377, "700497", "{\n}", "San Leandro", "Rancho San Antonio", "E. 14th & Hays", null ]
+, [ 276, "1BF87A3F-4E3F-4A53-AA4B-434354A852FF", 276, 1354582353, "700497", 1354582368, "700497", "{\n}", "San Leandro", "San Leandro Historical Railway Society", "1302 Orchard Ave.", "(510) 569-2490" ]
+, [ 277, "8A4E7C50-AA17-4A4C-A4B6-F91E98730D66", 277, 1354582353, "700497", 1354582374, "700497", "{\n}", "San Leandro", "San Leandro Marina", null, "(510) 577-7447" ]
+, [ 278, "41A9C396-A488-4EAD-8CB6-0C7AA3C91AE9", 278, 1354582353, "700497", 1354582370, "700497", "{\n}", "San Leandro", "Toler/Peralta House", "561 Lafayette Ave.", "(510) 562-7144" ]
+, [ 279, "C447CD4B-9B99-4BA2-A59E-707AEBA6CC21", 279, 1354582353, "700497", 1354582376, "700497", "{\n}", "Union City", "Alameda County Courthouse", "Union City Blvd. & Smith St.", null ]
+, [ 280, "BF8E4B76-6966-4D7D-A695-16C4A05D83E6", 280, 1354582353, "700497", 1354582376, "700497", "{\n}", "Union City", "Alameda Sugar Co./Dyer Mill", "Smith & Dyer St.", null ]
+, [ 281, "EA58B770-431C-4A39-BBF2-D04BDD7E3B42", 281, 1354582353, "700497", 1354582377, "700497", "{\n}", "Union City", "Bell Bridge", "Decoto Rd. & flood channel", null ]
+, [ 282, "A7E81441-93C8-4368-AB9C-7C927D0FB74B", 282, 1354582353, "700497", 1354582375, "700497", "{\n}", "Union City", "Buddhist Temple", "Abreu & Niles Rd.", null ]
+, [ 283, "A28DA055-E33A-42CA-A0FD-0350F01DDBE8", 283, 1354582353, "700497", 1354582375, "700497", "{\n}", "Union City", "Dry Creek Picnic Grounds", "Mays & Mission Blvd.", null ]
+, [ 284, "AA5D3440-E5F6-4013-8A45-B29A2F5C6D20", 284, 1354582353, "700497", 1354582375, "700497", "{\n}", "Union City", "Holly Community Center", "31600 Alvarado Blvd.", "(510) 471-6877" ]
+, [ 285, "324CCEB0-17DC-44AD-AA92-7914689607B3", 285, 1354582353, "700497", 1354582369, "700497", "{\n}", "Union City", "Kennedy Community Center", "1333 Decoto Rd.", "(510) 489-0360" ]
+, [ 286, "1D634646-5AD6-4B31-8936-C86196D12058", 286, 1354582353, "700497", 1354582368, "700497", "{\n}", "Union City", "Maiden Lane", "4100 Union City Blvd.", null ]
+, [ 287, "F32DFFDC-CADF-4983-AF4C-B90464FBAADC", 287, 1354582353, "700497", 1354582377, "700497", "{\n}", "Union City", "Masonic Home", "Decoto Rd. & Mission Blvd.", null ]
+, [ 288, "42E78468-0CF7-4FE6-83B4-0A797C41A396", 288, 1354582353, "700497", 1354582370, "700497", "{\n}", "Union City", "Old Chinatown/\"Little Tiajuana\"", "Watkins between Smith & Horner", null ]
+, [ 289, "75AA9FA8-6B35-4784-A7D5-582372C5A8BF", 289, 1354582353, "700497", 1354582372, "700497", "{\n}", "Union City", "Riverside Hotel", "Smith & Granger Ave.", null ]
+, [ 290, "373F0729-826C-4719-BE0B-FEA3BF511E7B", 290, 1354582353, "700497", 1354582370, "700497", "{\n}", "Union City", "St. Anne's Catholic Church", "Smith & Fredi St.", null ]
+, [ 291, "065C1FCC-2813-442F-BA98-DD48A02C66E5", 291, 1354582353, "700497", 1354582364, "700497", "{\n}", "Union City", "Union City Historical Museum", "3841 Smith St.", "(510) 324-3298" ]
+, [ 292, "B8F1D2EC-65C8-44AD-B81E-295B33EE845B", 292, 1354582353, "700497", 1354582376, "700497", "{\n}", "Union City", "Union City Library", "34007 Alvarado-Niles Rd.", "(510) 745-1464" ]
+ ]
+}
