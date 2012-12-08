@@ -8,6 +8,7 @@ $(document).on('pageinit', '#index-page', function() {
     
     $.each(data.data, function(key, val) {
       var poi = new Object();
+      poi.id = val[0];
       poi.name = val[9];
       poi.location = val[10];
       poi.telephone = val[11];
