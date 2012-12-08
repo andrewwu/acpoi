@@ -14,8 +14,19 @@ h2#title {
 
 #poi-information li {
   padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 img.info-icon {
   margin: 15px 10px;
+}
+
+#map {
+  width: 100%;
+  height: 200px;
+  border: 1px solid #bcbcbc;
+}
+
+.hidden {
+  display: none;
 }
