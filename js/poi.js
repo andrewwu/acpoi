@@ -1,7 +1,5 @@
 $(document).on('pageinit', '#poi-page', function() {
   var name = "Name";
-  var location = "--";
-  var telephone = "--";
 
   if (selectedPOI.name != null) {
     name = selectedPOI.name; 
@@ -10,9 +8,13 @@ $(document).on('pageinit', '#poi-page', function() {
   $('span.poi-name').text(name);
 
   if (selectedPOI.telephone != null) {
-    telephone = selectedPOI.telephone;
+    $('span#poi-telephone').text(selectedPOI.telephone);
   }
-  $('span#poi-telephone').text(telephone);
+  else {
+    $('li#poi-telephone-section').remove();
+  }
+
+  $('ul#poi-information').listview('refresh');
 
   $('a#back-btn').click(function(e) {
     e.preventDefault();
@@ -57,17 +59,27 @@ $(document).on('pagebeforeshow', '#poi-page', function() {
           map.panTo(place.geometry.location);
         }
         else {
+          $('li#poi-map-section').remove();
           if (selectedPOI.location != null) {
             $('span#poi-location').text(selectedPOI.location);
+          }
+          else {
+            $('li#poi-location-section').remove();
           }
         }
       }
       else {
+        $('li#poi-map-section').remove();
         if (selectedPOI.location != null) {
           $('span#poi-location').text(selectedPOI.location);
         }
+        else {
+          $('li#poi-location-section').remove();
+        }
       }
     }
+
+    $('ul#poi-information').listview('refresh');
   }
 
   function createMarker(place) {
