@@ -6,7 +6,7 @@ var selectedPOI = null;
 $(document).on('pageinit', '#index-page', function() {
   $.getJSON('data.json', function(data) {
     
-    $.each(data, function(key, val) {
+    $.each(data.data, function(key, val) {
       var poi = new Object();
       poi.name = val[9];
       poi.location = val[10];
@@ -19,8 +19,12 @@ $(document).on('pageinit', '#index-page', function() {
       poiByCity[val[8]].push(poi);
     });
 
+    for (var key in poiByCity) {
+      cities.push(key);
+    }
+
     for (var i = 0; i < cities.length; i++) {
-      $('select#city').append("<option value='" + cities[i] + "'>" + citites[i] + "</option>")
+      $('select#city').append("<option value='" + cities[i] + "'>" + cities[i] + "</option>")
     }
   });
 
@@ -30,7 +34,8 @@ $(document).on('pageinit', '#index-page', function() {
     selectedCity = $('select#city').val();
     if (selectedCity == "") {
       alert("Please select a city.");
-    } else {
+    }
+    else {
       $.mobile.changePage('city.html');
     }
   });
