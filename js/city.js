@@ -12,6 +12,6 @@ $(document).on('pageinit', '#city-page', function() {
   $('ul#poi-list').on('click', ' > li', function () {
     var selectedIndex = $(this).index();
     selectedPOI = places[selectedIndex];
-    $.mobile.changePage('poi.html');
+    $.mobile.changePage('poi.html', {transition: "slide"});
   });
 });

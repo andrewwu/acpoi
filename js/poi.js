@@ -96,8 +96,7 @@ $(document).on('pageshow', '#poi-page', function() {
   /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
   var disqus_shortname = 'acpoi';
   var disqus_developer = 1;
-  var disqus_identifier = selectedPOI.name;
-  console.log('identifier is ' + disqus_identifier);
+  var disqus_identifier = "http://acpoi.com/poi.html#" + selectedPOI.id;
 
   /* * * DON'T EDIT BELOW THIS LINE * * */
   (function() {
