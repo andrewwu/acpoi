@@ -8,7 +8,14 @@ h2#title {
   text-align: center;
 }
 
+#poi-information > .ui-li {
+  min-height: 40px;
+}
+
+#poi-information li {
+  padding-top: 15px;
+}
+
 img.info-icon {
-  width: 32px;
-  height: 32px;
+  margin: 15px 10px;
 }
