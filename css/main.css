@@ -7,3 +7,8 @@ img#logo {
 h2#title {
   text-align: center;
 }
+
+img.info-icon {
+  width: 32px;
+  height: 32px;
+}

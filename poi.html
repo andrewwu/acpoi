@@ -19,8 +19,14 @@
         <h1 id="poi-name"></h1>
       </div>
       <div data-role="content">
-        <div>Location: <span id="poi-location"></span></div>
-        <div>Telephone: <span id="poi-telephone"></span></div>
+
+        <div data-role="collapsible" data-collapsed="false" data-theme="e" data-content-theme="d">
+          <h3>Information</h3>
+          <ul id="poi-information" data-role="listview">
+            <li><img class="info-icon" src="images/pin-2.png" alt="Location" /> <span id="poi-location"></span></li>
+            <li><img class="info-icon" src="images/address-book.png" alt="Telephone" /> <span id="poi-telephone"></span></li>
+          </ul>
+        </div>
       </div>
     </div>
   </body>
