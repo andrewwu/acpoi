@@ -1,38 +1,31 @@
 <!DOCTYPE html> 
 <html>
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1"> 
-  <title>Alameda County - Points of Interest</title> 
-  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
-  <link rel="stylesheet" href="css/main.css" />
-  <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
-  <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
-  <script src="js/main.js"></script>
-  <script src="js/city.js"></script>
-</head> 
-
-<body> 
-
-<div id="index-page" data-role="page">
-  <div data-role="header">
-    <h1>Home</h1>
-  </div>
-  <div data-role="content"> 
-    <img id="logo" src="images/logo_alameda_county.png" alt="Alameda County" />
-    <h2 id="title">A Guide for Locals &amp; Visitors</h2>
-    <form>
-      <select id="city" name="city">
-        <option value="">Select a city</option>
-      </select>
-      <button id="find">Find</button>
-    </form>
-  </div>
-  <div data-role="footer">
-    <h4>City Information</h4>
-  </div>
-</div>
-
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <title>Alameda County - Points of Interest</title> 
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/city.js"></script>
+  </head>
+  <body> 
+    <div id="index-page" data-role="page">
+      <div data-role="header">
+        <h1>Home</h1>
+      </div>
+      <div data-role="content"> 
+        <img id="logo" src="images/logo_alameda_county.png" alt="Alameda County" />
+        <h2 id="title">A Guide for Locals &amp; Visitors</h2>
+        <form>
+          <select id="city" name="city">
+            <option value="">Select a city</option>
+          </select>
+          <button id="find" data-icon="search" data-iconpos="right" data-theme="b">Find</button>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>
