@@ -24,9 +24,14 @@ $(document).on('pageinit', '#index-page', function() {
       cities.push(key);
     }
 
+    $('select#city').empty();
+    $('select#city').append("<option value=''>Select a city</option>");
+
     for (var i = 0; i < cities.length; i++) {
       $('select#city').append("<option value='" + cities[i] + "'>" + cities[i] + "</option>")
     }
+
+    $('select#city').selectmenu('refresh');
   });
 
   $('button#find').click(function(e) {
